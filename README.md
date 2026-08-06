@@ -1,13 +1,12 @@
 # MineHost
 
-MineHost is an Android control-room app for preparing a Minecraft: Java Edition server profile. It has a version picker, a mod/plugin deployment queue, public-address helper, and editable general `server.properties` settings.
+MineHost is an Android control-room app for running a Minecraft: Java Edition Vanilla server from an Android phone through Termux. It has a version picker, public-address helper, phone-host controls, and editable general `server.properties` settings.
 
 ## What it does
 
-- Stores a Paper, Vanilla, Fabric, or Forge profile locally on the Android device.
-- Lets you queue secure HTTPS mod/plugin links or local `.jar` files for deployment.
+- Stores a phone-host-compatible official Vanilla profile locally on the Android device.
 - Copies a small `server.properties` configuration to the clipboard.
-- Explains the external steps needed for a server that friends can join over the internet.
+- Detects and copies the local Minecraft connection address for a PC on the same Wi-Fi network.
 - Includes **Host** mode: a permission-gated Termux integration that sets up OpenJDK, downloads the official Vanilla server after EULA confirmation, and can sync, start, stop, and check a server session running on the phone.
 
 ## Important limits
