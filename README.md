@@ -2,6 +2,10 @@
 
 MineHost is an Android control-room app for running a Minecraft: Java Edition Vanilla server from an Android phone through Termux. It has a version picker, public-address helper, phone-host controls, and editable general `server.properties` settings.
 
+## Download
+
+Download and install the signed APK directly from this repository: [MineHost.apk](./MineHost.apk)
+
 ## What it does
 
 - Stores a phone-host-compatible official Vanilla profile locally on the Android device.
